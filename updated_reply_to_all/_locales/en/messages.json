@@ -1,0 +1,13 @@
+// Derived from https://developer.thunderbird.net/add-ons/updating/tb68/changes
+// Modified By Chandan Prakash on 22-04-2020
+// Changes done : Added this file in en folder of _locale as default_locale is set to "en" in manifest.json .
+
+
+{
+	"extensionName": {
+		"message": "Reply_to_all_as_cc"
+	},
+	"extensionDescription": {
+		"message": "Send a reply for recipients as CC except the sender, when you do &quot;Reply to All&quot;.When there is no Cc, Thunderbird automatically send a reply to other recipients as Cc."
+	}
+}
