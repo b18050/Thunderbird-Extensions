@@ -36,5 +36,6 @@ subsequently removed using the Add-on Manager.
 #Add-ons extensions :
 1.Hello-world
 2."Reply to All as Cc" v 1.5.4 (updated)
+3."resetrec" v 1.4 (updated)
 
 I would thank Dr.Timothy A. Gonsalves to let me know about this all.
