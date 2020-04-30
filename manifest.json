@@ -1,0 +1,23 @@
+// Derived from https://developer.thunderbird.net/add-ons/updating/tb68/changes
+// Modified By Chandan Prakash on 25-04-2020
+// Changes done : install.rdf is converted to manifest.json
+// derived from https://developer.thunderbird.net/add-ons/updating/tb68/overlays#switch-to-json-manifest
+
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko":  {
+      "id": "ResetRec@lejav.com",
+      "strict_min_version": "68.0"
+    }
+  },
+  "name": "ResetRec",
+  "version": "1.4",
+  "description": "ResetRec allows you to reset the recipient list.",
+  "author": "LeJav, modified by CP ",
+  "homepage_url":  "https://addons.mozilla.org/en-US/thunderbird/addon/resetrec",
+  "default_locale": "en",
+  "icons": {
+    "32": "images/ResetRec.png"
+  }
+}
