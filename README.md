@@ -1,5 +1,7 @@
 # Thunderbird-Extensions
 This will contain some add-ons Extensions as a part of Thunderbird Extension hacking .
+Thunderbird will change its add-on framework as Firefox did: WebExtensions. 
+
 
 #Introduction
 The Thunderbird email client is of one of the most widely-used open
@@ -37,5 +39,10 @@ subsequently removed using the Add-on Manager.
 1.Hello-world
 2."Reply to All as Cc" v 1.5.4 (updated)
 3."resetrec" v 1.4 (updated)
+
+4."send-unsent-messages-without-attachments
+
+However, WebExtensions does not provide such API so far.
+So, we need to develop your own APIs by using WebExtensionExperiments.
 
 I would thank Dr.Timothy A. Gonsalves to let me know about this all.
